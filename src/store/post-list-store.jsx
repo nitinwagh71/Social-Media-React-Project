@@ -51,7 +51,7 @@ const PostListProvider = ({ children }) => {
     });
   };
 
-  // deletePost 
+  // deletePost
   const deletePost = (postId) => {
     dispatchPostList({
       type: "DELETE_POST",
